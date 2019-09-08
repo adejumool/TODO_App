@@ -85,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
             FileUtils.writeLines(getDataFile(), items);
         } catch (IOException e) {
             Log.e("MainActivity", "Error reading items", e);
-
         }
     }
 }
